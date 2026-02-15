@@ -38,7 +38,7 @@ The system is built on three main development boards communicating via Serial (U
 
 ## Installation and Setup
 
-1.  **Wiring**: Connect the components according to the wiring diagrams in the `docs` folder.
+1.  **Wiring**: Connect the components according to the wiring diagrams in the `documentation` file.
     * *Note:* Ensure a voltage divider is used on the RX line of the ESP32 when connecting to the Arduino Uno TX to shift 5V logic to 3.3V.
 2.  **Network Configuration**: Update the `ssid` and `password` variables in both ESP32 and ESP32-CAM files to match your local Wi-Fi network.
 3.  **Upload Code**:
